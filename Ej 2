@@ -13,6 +13,7 @@ def pregunta():
     return finfin_list
 pregunta()
 def uniqueValues(arr):
-    
+    for i in range(finfin_list):
+        for j in range(finfin_list):
     return arr
 print(uniqueValues(finfin_list))
