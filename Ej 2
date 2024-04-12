@@ -1,0 +1,18 @@
+list_s=input('Ingrese cantidad de listas:')
+a= len(list_s)
+finfin_list=[]
+def pregunta():
+    for i in range(int(list_s)):
+        cant=input(f'Ingrese cantidad de números en la lista numero {i+1}:')
+        for j in range(int(cant)):
+            fin_list=[]
+            list=input(f'Ingrese valores de la lista nº{i+1} uno por 1:')
+            fin_list.append(int(list))
+            while j==int(cant):
+                finfin_list.append(fin_list)
+    return finfin_list
+pregunta()
+def uniqueValues(arr):
+    
+    return arr
+print(uniqueValues(finfin_list))
